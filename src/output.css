@@ -272,6 +272,15 @@
   .hidden {
     display: none;
   }
+  .table {
+    display: table;
+  }
+  .h-\[0px\] {
+    height: 0px;
+  }
+  .h-\[10px\] {
+    height: 10px;
+  }
   .h-\[20px\] {
     height: 20px;
   }
@@ -457,6 +466,9 @@
   }
   .rounded-\[50px\] {
     border-radius: 50px;
+  .border {
+    border-style: var(--tw-border-style);
+    border-width: 1px;
   }
   .border-1 {
     border-style: var(--tw-border-style);
@@ -682,11 +694,26 @@
   .lg\:ml-\[1px\] {
     @media (width >= 64rem) {
       margin-left: 1px;
+  .underline {
+    text-decoration-line: underline;
+  }
+  .outline {
+    outline-style: var(--tw-outline-style);
+    outline-width: 1px;
+  }
+  .lg\:mr-auto {
+    @media (width >= 64rem) {
+      margin-right: auto;
     }
   }
   .lg\:ml-auto {
     @media (width >= 64rem) {
       margin-left: auto;
+    }
+  }
+  .lg\:block {
+    @media (width >= 64rem) {
+      display: block;
     }
   }
   .lg\:flex {
@@ -851,6 +878,11 @@
   syntax: "*";
   inherits: false;
 }
+@property --tw-outline-style {
+  syntax: "*";
+  inherits: false;
+  initial-value: solid;
+}
 @layer properties {
   @supports ((-webkit-hyphens: none) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color:rgb(from red r g b)))) {
     *, ::before, ::after, ::backdrop {
@@ -865,6 +897,7 @@
       --tw-gradient-via-position: 50%;
       --tw-gradient-to-position: 100%;
       --tw-font-weight: initial;
+      --tw-outline-style: solid;
     }
   }
 }
