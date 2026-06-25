@@ -312,6 +312,9 @@
   .h-\[200px\] {
     height: 200px;
   }
+  .h-\[240px\] {
+    height: 240px;
+  }
   .h-\[250px\] {
     height: 250px;
   }
@@ -419,6 +422,12 @@
   }
   .w-\[350px\] {
     width: 350px;
+  }
+  .max-w-\[100px0\] {
+    max-width: 100px0;
+  }
+  .max-w-\[100px\] {
+    max-width: 100px;
   }
   .max-w-\[700px\] {
     max-width: 700px;
@@ -651,6 +660,9 @@
   }
   .pt-\[30px\] {
     padding-top: 30px;
+  }
+  .pt-\[40px\] {
+    padding-top: 40px;
   }
   .pt-\[100px\] {
     padding-top: 100px;
