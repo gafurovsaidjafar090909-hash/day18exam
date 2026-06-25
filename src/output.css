@@ -192,6 +192,9 @@
   .mt-\[1px\] {
     margin-top: 1px;
   }
+  .mt-\[10\] {
+    margin-top: 10;
+  }
   .mt-\[10p0x\] {
     margin-top: 10p0x;
   }
@@ -348,8 +351,38 @@
   .h-\[700px\] {
     height: 700px;
   }
+  .h-\[900px\] {
+    height: 900px;
+  }
+  .h-\[1200px\] {
+    height: 1200px;
+  }
+  .h-\[1500px\] {
+    height: 1500px;
+  }
+  .h-\[1600px\] {
+    height: 1600px;
+  }
+  .h-\[1800px\] {
+    height: 1800px;
+  }
+  .h-\[1900px\] {
+    height: 1900px;
+  }
+  .h-\[2300px\] {
+    height: 2300px;
+  }
+  .h-\[2600px\] {
+    height: 2600px;
+  }
+  .h-\[2700px\] {
+    height: 2700px;
+  }
   .h-screen {
     height: 100vh;
+  }
+  .w-\[1\] {
+    width: 1;
   }
   .w-\[10\%\] {
     width: 10%;
@@ -395,6 +428,9 @@
   }
   .w-\[100px\] {
     width: 100px;
+  }
+  .w-\[120px\] {
+    width: 120px;
   }
   .w-\[130px\] {
     width: 130px;
@@ -646,6 +682,9 @@
   .p-\[13px\] {
     padding: 13px;
   }
+  .p-\[20p\] {
+    padding: 20p;
+  }
   .p-\[20px\] {
     padding: 20px;
   }
@@ -755,6 +794,9 @@
   .text-\[20px\] {
     font-size: 20px;
   }
+  .text-\[23px\] {
+    font-size: 23px;
+  }
   .text-\[24px\] {
     font-size: 24px;
   }
@@ -812,6 +854,9 @@
   .text-\[\#98989A\] {
     color: #98989A;
   }
+  .text-\[\#B3B3B2\] {
+    color: #B3B3B2;
+  }
   .text-\[\#E6E6E6\] {
     color: #E6E6E6;
   }
@@ -827,6 +872,9 @@
   .text-\[\#FFFFFF\] {
     color: #FFFFFF;
   }
+  .text-\[\#\] {
+    color: #;
+  }
   .text-\[white\] {
     color: white;
   }
@@ -835,6 +883,9 @@
   }
   .font-stretch-75\% {
     font-stretch: 75%;
+  }
+  .font-stretch-200\% {
+    font-stretch: 200%;
   }
   .underline {
     text-decoration-line: underline;
@@ -913,6 +964,11 @@
       height: 400px;
     }
   }
+  .lg\:h-\[1600px\] {
+    @media (width >= 64rem) {
+      height: 1600px;
+    }
+  }
   .lg\:w-\[30\%\] {
     @media (width >= 64rem) {
       width: 30%;
@@ -941,6 +997,16 @@
   .lg\:w-\[50\%\] {
     @media (width >= 64rem) {
       width: 50%;
+    }
+  }
+  .lg\:w-\[65\%\] {
+    @media (width >= 64rem) {
+      width: 65%;
+    }
+  }
+  .lg\:w-\[65\] {
+    @media (width >= 64rem) {
+      width: 65;
     }
   }
   .lg\:w-\[100\%\] {
